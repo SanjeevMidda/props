@@ -1,0 +1,39 @@
+*{
+  margin: 0px;
+  font-family: Helvetica, sans-serif;
+  font-weight: 300;
+}
+
+.App{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url("./imgs/fashion.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+
+.window{
+  width: 80vw;
+  height: 80vh;
+  border: 3px solid white;
+}
+
+nav{
+  background-color: white;
+  color: black;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+}
+
+h1{
+  font-size: 350px;
+  color: white;
+}
+
+h2{
+  text-align: center;
+}
